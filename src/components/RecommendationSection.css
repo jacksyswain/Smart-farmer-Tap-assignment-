@@ -1,0 +1,21 @@
+
+
+
+
+.section p {
+  color: #555;
+  font-size: 16px;
+}
+
+ .section{
+  width: 45vw;
+  margin-top: 15px;
+  height: 25vh;
+  padding: 20px;
+  margin-left: 10%;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  
+ }
