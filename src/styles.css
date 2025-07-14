@@ -50,4 +50,43 @@ body {
     transform: translateY(0);
   }
 }
+@media (max-width: 768px) {
+  .hero-image img {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .section {
+    width: 90%;
+    margin: 0 auto 16px auto;
+    padding: 16px;
+  }
+
+  .weather-section {
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 95%;
+  }
+    .weather-dashboard {
+    width: 100%;
+  }
+
+  .weather-btn {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .navbar-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+}
 
